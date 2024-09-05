@@ -14,7 +14,7 @@ body {
 /* ===== ヘッダーのスタイル ===== */
 /* ヘッダーの箱 */
 header {
-  background-image: url(img/haikei.jpg);/* 背景画像 */
+  background-image: url(haikei.jpg);/* 背景画像 */
   background-size:cover;
   background-repeat: no-repeat;/* 背景のくり返しをやめる */
   background-position: top center;/* 背景の位置 */
