@@ -1,0 +1,51 @@
+/* ===== Webサイト全体のスタイル ===== */
+/* html */
+html {
+  height: 100%;
+}
+
+/* body */
+body {
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+/* ===== ヘッダーのスタイル ===== */
+/* ヘッダーの箱 */
+header {
+  background-image: url(img/haikei.jpg);/* 背景画像 */
+  background-size:cover;
+  background-repeat: no-repeat;/* 背景のくり返しをやめる */
+  background-position: top center;/* 背景の位置 */
+  height: 1000px;/* 高さ */
+}
+
+.picture{
+  display: grid;
+  gap:26px;
+  grid-template-columns:repeat(auto-fit,minmax(240px, 1fr));
+  padding:50px
+}
+
+.item img{
+  max-width: 100%;
+  height: auto;
+}
+
+.item p {
+  text-align: center;
+  color:white;
+  text-shadow:1px 1px 0 #000000, -1px -1px #000000,
+  -1px 1px 0 #000000, 1px -1px 0#000000,
+  0px 1px 0 #000000,  0-1px 0#000000,
+  -1px 0 0 #000000, 1px 0 0 #000000;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+/* フッター */
+footer {
+  text-align: center;
+  background-color: #003b46;
+  color: #ffffff;
+}
